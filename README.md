@@ -35,7 +35,7 @@ This project scans a salvaged Yamaha V50 matrix keyboard (Part Number XD327) and
 ## Matrix Layout
 - Rows: 11
 - Columns: 6
-- Total keys: 66
+- Total keys: 61
 - Each key uses Make (MK) and Break (BR) contacts.
 
 The code builds two 6-channel lists from the 74HC4067 truth table:
