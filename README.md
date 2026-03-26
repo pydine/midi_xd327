@@ -70,7 +70,7 @@ The `values[11][6]` matrix defines note numbers per row/column. Adjust this tabl
 Use `keytest.ino` to verify key order and check for damaged keys via the serial port. It scans all 12 mux channels and prints the detected row/column when a contact is pressed.
 
 Steps:
-1. Open Serial3 at 115200 baud.
+1. Connect Serial3 and open it at 115200 baud.
 2. Press keys one by one.
 3. Confirm the reported row/column matches the expected layout.
 
