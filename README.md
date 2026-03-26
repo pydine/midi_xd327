@@ -66,6 +66,14 @@ The `values[11][6]` matrix defines note numbers per row/column. Adjust this tabl
 3. Select the STM32F103 board profile in the Arduino IDE.
 4. Compile and upload `midi.ino`.
 
+## Key Test Utility
+Use `keytest.ino` to verify key order and check for damaged keys via the serial port. It scans all 12 mux channels and prints the detected row/column when a contact is pressed.
+
+Steps:
+1. Open Serial3 at 115200 baud.
+2. Press keys one by one.
+3. Confirm the reported row/column matches the expected layout.
+
 ## Notes
 - This project depends on USBComposite for MIDI enumeration.
 - PC13 LED is active-low on many Blue Pill boards; adjust wiring if needed.
